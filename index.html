@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="buttons box">
+            <div class="rock" id="rock" onclick="choise('rock')">
+                <img src=" rock.png" alt="ROCK">
+            </div>
+
+            <div class="paper" id="paper" onclick="choise('paper')"">
+                <img src=" paper.png" alt="PAPER">
+            </div>
+
+            <div class="scissors" id="scissors" onclick="choise('scissors')"">
+                <img src=" scissors.png" alt="SCISSORS ">
+            </div>
+        </div>
+
+        <div class="board box">
+            <div class="player">
+                <img src="" id="player" alt=" ">
+            </div>
+            <div class="txt">
+                <h2 id="round" class="w3-animate-top"></h2>
+                <br />
+                <h1 id="txt"></h1>
+                <br />
+                <h2 id="result"></h2>
+            </div>
+            <div class="si">
+                <img src="" id="si" alt=" ">
+            </div>
+        </div>
+
+        <div class="result box">
+            <h2>Player: </h2>
+            <h2 id="player_point">5</h2>
+
+            <br /> <br /> <br />
+
+            <h2>SI: </h2>
+            <h2 id="si_point">3</h2>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
