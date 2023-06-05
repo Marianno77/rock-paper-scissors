@@ -113,8 +113,8 @@ img {
 }
 
 .board {
-    max-height: 60svh;
-    min-height: 60svh;
+    max-height: 500px;
+    min-height: 500px;
     max-width: 650px;
     min-width: 450px;
     border-radius: 60% 40% 70% 30% / 41% 55% 45% 59%;
@@ -123,10 +123,10 @@ img {
 .result {
     flex-direction: column;
     font-size: 20px;
-    max-width: 30svh;
-    min-width: 30svh;
-    max-height: 60svh;
-    min-height: 60svh;
+    max-width: 280px;
+    min-width: 280px;
+    max-height: 500px;
+    min-height: 500px;
     border-radius: 85% 15% 78% 22% / 15% 69% 31% 85%;
 }
 
